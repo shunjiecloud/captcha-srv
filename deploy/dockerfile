@@ -1,0 +1,4 @@
+FROM golang:1.14.2-buster
+COPY ./captcha-srv /shunjiecloud/captcha-srv
+COPY ./config.json /shunjiecloud/config.json
+ENTRYPOINT ["/shunjiecloud/captcha-srv"]
