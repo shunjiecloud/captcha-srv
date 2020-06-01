@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/micro/go-micro/v2"
 	captcha_proto "github.com/shunjiecloud-proto/captcha/proto"
-	"github.com/shunjiecloud/captcha_srv/modules"
-	"github.com/shunjiecloud/captcha_srv/services"
+	"github.com/shunjiecloud/captcha-srv/modules"
+	"github.com/shunjiecloud/captcha-srv/services"
 )
 
 func main() {
