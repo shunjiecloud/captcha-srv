@@ -433,8 +433,8 @@ github.com/shunjiecloud-proto/captcha v0.0.0-20200601133446-b8be4403dcdf h1:GuCD
 github.com/shunjiecloud-proto/captcha v0.0.0-20200601133446-b8be4403dcdf/go.mod h1:HZPKO/nOtSouLmL8NYT/vK645qQjNmMj5d3ifLz4ZBc=
 github.com/shunjiecloud/errors v1.0.3-0.20200427091440-d2c8251bbc81 h1:FM4BKrhCrECq1XpkKwy+3qsUxYNluWSrIhCZJZY6kKw=
 github.com/shunjiecloud/errors v1.0.3-0.20200427091440-d2c8251bbc81/go.mod h1:11oXgDJrf0RUitbjDJe+Ht/B1iq9gEJZMI9ijhgO40E=
-github.com/shunjiecloud/pkg v0.0.0-20200528071321-6930a20ca241 h1:4aBE+rqFbk2uKT0A9M6K77TNuqIzgdFlkxG377aaEC8=
-github.com/shunjiecloud/pkg v0.0.0-20200528071321-6930a20ca241/go.mod h1:ukrS8r067vwG4B5PsV06N00viY4BJY6MQ2LXxhbr6AI=
+github.com/shunjiecloud/pkg v0.0.0-20200602063315-4f7969972c9f h1:R5kajGq8UpH++rTE9tfud1EGgkP1Hp4ydKnrU8CVt4s=
+github.com/shunjiecloud/pkg v0.0.0-20200602063315-4f7969972c9f/go.mod h1:ukrS8r067vwG4B5PsV06N00viY4BJY6MQ2LXxhbr6AI=
 github.com/shurcooL/sanitized_anchor_name v1.0.0 h1:PdmoCO6wvbs+7yrJyMORt4/BmY5IYyJwS/kOiWx8mHo=
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
