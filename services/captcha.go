@@ -4,6 +4,7 @@ import (
 	"context"
 
 	"github.com/dchest/captcha"
+	merr "github.com/micro/go-micro/v2/errors"
 	"github.com/shunjiecloud-proto/captcha/proto"
 )
 
@@ -16,6 +17,9 @@ func (*CaptchaService) CaptchaId(ctx context.Context, in *proto.CaptchaIdRequest
 }
 
 func (*CaptchaService) CaptchaVerfify(ctx context.Context, in *proto.CaptchaVerfifyRequest, out *proto.CaptchaVerfifyResponse) error {
-	out.Result = captcha.VerifyString(in.CaptchaId, in.Solution)
+	isOk := captcha.VerifyString(in.CaptchaId, in.Solution)
+	if isOk == false {
+		return merr.BadRequest("captcha verfify failed", "")
+	}
 	return nil
 }
