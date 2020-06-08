@@ -8,5 +8,5 @@ require (
 	github.com/micro/go-micro/v2 v2.8.0
 	github.com/shunjiecloud-proto/captcha v0.0.0-20200606113732-01d020f2eff8
 	github.com/shunjiecloud/errors v1.0.3-0.20200427091440-d2c8251bbc81
-	github.com/shunjiecloud/pkg v0.0.0-20200608184151-f4db92e84b6c
+	github.com/shunjiecloud/pkg v0.0.0-20200608213205-7936a725a0c8
 )
