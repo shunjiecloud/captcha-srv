@@ -5,11 +5,13 @@ import (
 	captcha_proto "github.com/shunjiecloud-proto/captcha/proto"
 	"github.com/shunjiecloud/captcha-srv/modules"
 	"github.com/shunjiecloud/captcha-srv/services"
+	"github.com/shunjiecloud/pkg/log"
 )
 
 func main() {
 	service := micro.NewService(
 		micro.Name("go.micro.srv.captcha"),
+		micro.WrapHandler(log.LogWrapper),
 	)
 
 	// Init

@@ -23,7 +23,7 @@ var ModuleContext moduleWrapper
 func Setup() {
 	//  redis
 	var host Host
-	if err := config.Get("hosts", "redis").Scan(&host); err != nil {
+	if err := config.Get("config", "redis").Scan(&host); err != nil {
 		panic(err)
 	}
 	ModuleContext.Redis = redis.NewClient(&redis.Options{
