@@ -28,7 +28,5 @@ spec:
         env:
         - name: CONFIG_FILE_PATH
           value: "/shunjiecloud/config.json"
-        - name: MAX_CAPTCHA_COLLECT_NUM
-          value: 10000
         resources: {}
 status: {}

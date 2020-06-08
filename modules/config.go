@@ -7,9 +7,13 @@ import (
 	"github.com/micro/go-micro/v2/config/source/file"
 )
 
-type Host struct {
+type RedisConfig struct {
 	Address string `json:"address"`
 	Port    int    `json:"port"`
+}
+
+type CaptchaConfig struct {
+	MaxCollectNum uint64 `json:"mac_collect_num"`
 }
 
 func setupConfig() {
